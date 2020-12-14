@@ -8,6 +8,8 @@
 </head>
 <body>
   <section>
+    <div class="cicle"></div>
+
     <header>
       <a href="index.html"><img  class="logo" src="./image/Logo-1.png" alt=""></a>
       <ul>
@@ -24,14 +26,25 @@
       <a href="#">Compre aqui!</a>
       </div>
       <div class="imgBox">
-        <img src="./image/amarela.png" class="amarela" alt="">
+        <img src="./image/thumb1.png" class="carv" >
       </div>
     </div>
-  </section>
-  <footer>
-    <div class="footer">
-<p> &copy; Todos os direitos reservados.</p>
+    <div class="thumb">
+      <ul>
+        <li><img src="./image/thumb1.png" onclick="imgSlider('./image/thumb1.png');changeCircleColor('#554032')" ></li>
+        <li><img src="./image/thumb2.png" onclick="imgSlider('./image/thumb2.png');changeCircleColor('#3ffd')" ></li>
+        <li><img src="./image/thumb3.png" onclick="imgSlider('./image/thumb3.png');changeCircleColor('#fdf')"   ></li>
+      </ul>
     </div>
-  </footer>
+    
+      <ul class="redes">
+        <li><a href="#"><img src="./image/instagram.png" alt=""></a></li>
+        <li><a href="#"><img src="./image/linkedin.png" alt=""></a></li>
+        <li><a href="#"><img src="./image/medium.png" alt=""></a></li>
+      </ul>
+  </section>
+  
+
+  <script src="./main.js"></script>
 </body>
 </html>
